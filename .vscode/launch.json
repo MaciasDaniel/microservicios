@@ -29,6 +29,16 @@
             "projectName": "moto-service",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServiceApplication<config_service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.config.service.config_service.ConfigServiceApplication",
+            "projectName": "config_service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
