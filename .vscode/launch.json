@@ -39,6 +39,16 @@
             "projectName": "config_service",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServiceApplication<eureka-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.eureka.service.eurekaservice.EurekaServiceApplication",
+            "projectName": "eureka-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
